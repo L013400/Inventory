@@ -1,0 +1,37 @@
+.login-form {
+    width: 100%;
+    background-color: var(--primary);
+    padding:20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.login-form h1 {
+    font-size: var(--xxl);
+    font-weight: normal;
+    color: var(--secondary);
+    text-align: center;
+}
+.login-form > * {
+    margin-top: 10px;
+}
+.login-form label{
+    font-size: var(--m);
+    color: var(--secondary);
+}
+.login-form .input{
+    font-size: var(--m);
+}
+.login-form .submit-btn {
+    height: 40px;
+    background-color: var(--accent);
+    font-size: var(--m);
+    color: var(--secondary);
+    margin-top: 20px;
+    width: 150px;
+}
+.login-form .login-error{
+    font-size: var(--xs);
+    color: var(--warning);
+    margin-top: 20px;
+}

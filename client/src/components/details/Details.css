@@ -1,0 +1,23 @@
+.details-container{
+    height: 100%;
+    overflow-y: hidden;
+}
+.image-container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+}
+.image-container h1{
+    text-align: center;
+    font-size: var(--xl);
+    margin-top: 25px;
+}
+.image-container img{
+    width:70%;
+    height: auto;
+    max-width: 650px;
+    min-width: 280px;
+}

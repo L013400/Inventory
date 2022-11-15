@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'DM Sans', sans-serif;
+}
+
+
+:root {
+  --primary: #323232;
+  --secondary:#fefefe;
+  --accent:#5234d6;
+  --accentlight:#5234d620;
+  --danger:#f01c51;
+  --dangerlight:#f01c5122;
+  --success:#1cbe44;
+  --successlight:#1cbe4432;
+  --warning:#f3dc5d;
+  --warninglight:#f3dc5d32;
+  --xs:12px;
+  --s:16px;
+  --m:18px;
+  --l:24px;
+  --xl:30px;
+  --xxl:40px;
+  --giant:60px;
+}
+
+.App{
+  min-height: 100vh;
+}
+
+.btn{
+  cursor: pointer;
+  border: none;
+  background-color: #fff;
+  padding:6px 10px;
+  border-radius: 8px;
+}
+.btn:disabled{
+  background-color: #787878 !important;
+  cursor: not-allowed;
+}
+ .input{
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  padding: 0 8px;
+ }
+
+.input:focus {
+  border: none;
+  outline: none;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--secondary);
+  background-clip: content-box;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #767876;
+  border-radius: 40px;
+}

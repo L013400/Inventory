@@ -1,0 +1,118 @@
+.header{
+    position: relative;
+    width: 100%;
+    height: 80px;
+    background-color: var(--primary);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:15px;
+}
+
+.header .links{
+    text-decoration: none;
+    color: var(--secondary);
+    font-size: var(--s);
+    margin-right:15px;
+    padding: 6px 10px;
+    border-radius: 8px;
+}
+
+.header .links:hover{
+    background-color: var(--accentlight);
+}
+
+.header .linkactive,
+.header .linkactive:hover{
+    background-color: var(--accent);
+}
+
+.searchbox {
+height: 50px;
+width:70%;
+background-color: #fff;
+max-width: 600px;
+border-radius: 25px;
+display: flex;
+align-items: center;
+overflow: hidden;
+padding:5px 8px;
+}
+.searchbox .search-input {
+    width:100%;
+    border: none;
+    font-size: var(--m);
+    padding: 6px 10px;
+}
+.searchbox .search-input::placeholder {
+font-size: var(--s);
+}
+.searchbox .search-input:focus {
+    border: none;
+    outline: none;
+}
+.searchbox .uil-search{
+    flex-shrink: 0;
+    width:38px;
+    height: 38px;
+    font-size: 24px;
+    line-height: 38px;
+    text-align: center;
+    background-color: var(--accentlight);
+    border-radius: 100%;
+}
+.header .logo{
+    color: var(--secondary);
+}
+.header .right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-btn{
+    background-color: var(--danger);
+    color: var(--secondary);
+    font-size: var(--s);
+    margin-left: 15px;
+    width:100px;
+    height: 40px;
+}
+
+.user{
+    background-color: var(--secondary);
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 40px;
+    font-size: var(--l);
+    cursor: pointer;
+}
+.user-info-box{
+    border-radius: 15px;
+    margin:10px;
+    padding:15px;
+    background-color: var(--secondary);
+    position: absolute;
+    top:100%;
+    right:0px;
+    box-shadow: 0 0 10px var(--accentlight);
+    z-index: 9999;
+}
+.user-info-box h1{
+    font-size: var(--m);
+}
+.user-info-box p{
+    color: var(--accent);
+    font-size: var(--s);
+    margin-top: 10px;
+}
+.logout-btn{
+    margin-top:10px;
+    background-color: var(--danger);
+    color: var(--secondary);
+    font-size: var(--s);
+    width:100px;
+    height: 40px;
+}

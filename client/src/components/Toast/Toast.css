@@ -1,0 +1,34 @@
+.toast{
+font-size: var(--m);
+text-align: center;
+padding:0px 10px;
+border-radius: 5px;
+position: fixed;
+top:attr(data-margin);
+right:10px;
+height: 45px;
+text-align: center;
+line-height: 45px;
+backdrop-filter: blur(1px);
+transition:0.5s;
+z-index: 999999;
+}
+.toast.error{
+    color: var(--danger);
+    background-color: var(--secondary);
+    border:2px solid var(--danger);
+}
+.toast.success{
+    color: var(--success);
+    background-color: var(--secondary);
+    border:2px solid var(--success);
+}
+.toast.warning{
+    color: var(--warning);
+    background-color: var(--secondary);
+    border:2px solid var(--warning);
+}
+
+.toast .uil{
+    margin-right: 5px;
+}

@@ -1,0 +1,24 @@
+export const LOGIN_USER = 'LOGIN_USER'
+export const LOGIN_USER_FAIL ='LOGIN_USER_FAIL'
+
+export const LOAD_USER_START = 'LOAD_USER_START'
+
+export const LOAD_USER = 'LOAD_USER'
+
+export const LOAD_USER_FAIL = 'LOAD_USER_FAIL'
+
+export const GET_DATA_START = 'GET_DATA_START'
+export const GET_DATA_SUCCESS = 'GET_DATA_SUCCESS'
+
+export const GET_DATA_FAIL = 'GET_DATA_FAIL'
+export const UPDATE_DATA_START = 'UPDATE_DATA_START'
+export const UPDATE_DATA_SUCCESS = 'UPDATE_DATA_SUCCESS'
+
+export const UPDATE_DATA_FAIL = 'UPDATE_DATA_FAIL'
+
+export const SEARCH_DATA = 'SEARCH_DATA'
+
+export const LOGOUT = 'LOGOUT'
+
+export const ADD_ALERT='ADD_ALERT'
+export const REMOVE_ALERT ='REMOVE_ALERT'
