@@ -21,7 +21,7 @@ const _dirname = path.dirname(_filename);
 const buildPath = path.join(_dirname,'../client/build')
 app.use(express.static(buildPath))
 
-app.get('/',(req,res)=>{
+app.get('*',(req,res)=>{
     res.sendFile(buildPath +'/index.html')
 })
     
