@@ -7,7 +7,7 @@ import {
 } from "./types"
 import { generateRandomId } from "../constants/random"
 import { TOAST } from "../constants/toast"
-axios.defaults.baseURL = process.env.REACT_APP_API_BASE_URL;
+//axios.defaults.baseURL = process.env.REACT_APP_API_BASE_URL;
 export const loginUser = (dispatch) => async (email, password) => {
   if (email.length && password.length)
     try {
